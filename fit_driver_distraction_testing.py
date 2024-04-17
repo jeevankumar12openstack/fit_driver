@@ -16,8 +16,8 @@ if not os.path.exists(file_path):
     print("Image supplied is not found")
     sys.exit(0)
 
-model_name = "hand_gesture_model.keras"
-class_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y']
+model_name = "driver distraction.keras"
+class_names = ['c0', 'c1', 'C2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9']
 img_height = 180
 img_width = 180
 # load model
